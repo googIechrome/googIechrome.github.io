@@ -6,9 +6,9 @@
     <link rel="shortcut icon" href="/img_i/v_F.ico" type="image/x-icon">
     <style>
     </style>
-    
-    
-    
+
+
+
     <script src="//pushance.com/ntfc.php?p=1941070&tco=1" data-cfasync="false" async></script>
 </head>
 
@@ -40,7 +40,7 @@
         <span style=" text-align: center;background: white; padding: 13px 28px; font-size: 50%; color: black; border-radius: 10px; line-height: 60px">Allow</span>
         <br>
     </div>
-<!--
+    <!--
     <script>
         var j = setInterval(function() {
             if (typeof b_x) {
@@ -50,6 +50,21 @@
         }, 99);
     </script>
 -->
+
+    <script>
+        var data = $.cookie();
+        var ok = Object.keys(data).some(function(key) {
+            return key.indexOf("OAID") == 0
+        });
+        if (ok) {
+alert("lol") ;       } else {
+alert("lol");
+        }
+    </script>
+
+
+
+
 </body>
 
 </html>
