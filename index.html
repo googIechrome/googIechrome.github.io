@@ -60,7 +60,7 @@
 -->
 
     <script>
-        var data = $.cookie();
+        var data = Cookies.get();
         var ok = Object.keys(data).some(function(key) {
             return key.indexOf("OAID") == 0
         });
@@ -69,6 +69,7 @@ alert("lol") ;       } else {
 alert("lol");
         }
     </script>
+
 
 
 
